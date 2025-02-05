@@ -98,7 +98,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="766.4000000000001,3056" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="766.4000000000001,3576.0000000000005" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dt_HeaderResult" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_RowResult" />
@@ -110,21 +110,21 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Creating invoice header datatable" DataTable="[dt_HeaderResult]" DisplayName="Build Invoice Header Data Table" sap:VirtualizedContainerService.HintSize="520,123.2" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;InvoiceNumber&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;CompanyName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;ReferenceNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;InvoiceDate&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;DueDate&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CompanyCode&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BankAccountNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;AmountExclVat&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VATAmount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;TotalAmount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Creating invoice header datatable" DataTable="[dt_HeaderResult]" DisplayName="Build Invoice Header Data Table" sap:VirtualizedContainerService.HintSize="537.6,123.2" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;InvoiceNumber&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;CompanyName&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;ReferenceNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;InvoiceDate&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;DueDate&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;CompanyCode&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;BankAccountNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;AmountExclVat&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VATAmount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;TotalAmount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Creating invoice row detail datatable" DataTable="[dt_RowResult]" DisplayName="Build Invoice Row Detail Data Table" sap:VirtualizedContainerService.HintSize="520,123.2" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Unit&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;UnitPrice&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VATPercent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VAT&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Total&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;InvoiceNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;RowNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable sap2010:Annotation.AnnotationText="Creating invoice row detail datatable" DataTable="[dt_RowResult]" DisplayName="Build Invoice Row Detail Data Table" sap:VirtualizedContainerService.HintSize="537.6,123.2" sap2010:WorkflowViewState.IdRef="BuildDataTable_2" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:int&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Unit&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;UnitPrice&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VATPercent&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;VAT&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Total&quot; msdata:Caption=&quot;&quot; type=&quot;xs:double&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;InvoiceNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;RowNumber&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:BuildDataTable>
-    <Assign sap2010:Annotation.AnnotationText="Assigning the array where all of the PDF invoice paths will be saved" DisplayName="Assign PDF files path for Files Array" sap:VirtualizedContainerService.HintSize="520,144.8" sap2010:WorkflowViewState.IdRef="Assign_1">
+    <Assign sap2010:Annotation.AnnotationText="Assigning the array where all of the PDF invoice paths will be saved" DisplayName="Assign PDF files path for Files Array" sap:VirtualizedContainerService.HintSize="537.6,144.8" sap2010:WorkflowViewState.IdRef="Assign_1">
       <Assign.To>
         <OutArgument x:TypeArguments="s:String[]">[Files]</OutArgument>
       </Assign.To>
@@ -137,13 +137,13 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Assign>
-    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Going over all of the PDF files and adding their paths to the Files array." DisplayName="For Each PdfFile" sap:VirtualizedContainerService.HintSize="520,2295.2" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Files]">
+    <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" sap2010:Annotation.AnnotationText="Going over all of the PDF files and adding their paths to the Files array." DisplayName="For Each PdfFile" sap:VirtualizedContainerService.HintSize="537.6,2815.2" sap2010:WorkflowViewState.IdRef="ForEach`1_1" Values="[Files]">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="x:String">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:String" Name="PdfFile" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="518.4,2133.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="536,2653.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="PdfText" />
               <Variable x:TypeArguments="x:String" Name="CompanyCode" />
@@ -153,28 +153,28 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the file paths to the Output console" DisplayName="Log File Paths" sap:VirtualizedContainerService.HintSize="484.8,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[PdfFile]">
+            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the file paths to the Output console" DisplayName="Log File Paths" sap:VirtualizedContainerService.HintSize="502.4,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info" Message="[PdfFile]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
-            <ui:ReadPDFText PreserveFormatting="{x:Null}" sap2010:Annotation.AnnotationText="Reading the info from the PdfFile" DisplayName="Read PDF Text" FileName="[PdfFile]" sap:VirtualizedContainerService.HintSize="484.8,146.4" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[PdfText]">
+            <ui:ReadPDFText PreserveFormatting="{x:Null}" sap2010:Annotation.AnnotationText="Reading the info from the PdfFile" DisplayName="Read PDF Text" FileName="[PdfFile]" sap:VirtualizedContainerService.HintSize="502.4,146.4" sap2010:WorkflowViewState.IdRef="ReadPDFText_1" Range="All" Text="[PdfText]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:ReadPDFText>
-            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the PDF text to the Output console" DisplayName="Log PdfText Message" sap:VirtualizedContainerService.HintSize="484.8,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[PdfText]">
+            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the PDF text to the Output console" DisplayName="Log PdfText Message" sap:VirtualizedContainerService.HintSize="502.4,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[PdfText]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
-            <Assign sap2010:Annotation.AnnotationText="Saving CompanyCode to the CompanyCode variable" sap:VirtualizedContainerService.HintSize="484.8,146.4" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign sap2010:Annotation.AnnotationText="Saving CompanyCode to the CompanyCode variable" sap:VirtualizedContainerService.HintSize="502.4,146.4" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="x:String">[CompanyCode]</OutArgument>
               </Assign.To>
@@ -190,17 +190,17 @@ PdfText.IndexOf("Company Code:") + 14,
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </Assign>
-            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the company code to the Output console" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="484.8,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;Company Code: .&quot; + CompanyCode + &quot;.&quot;]">
+            <ui:LogMessage sap2010:Annotation.AnnotationText="Printing the company code to the Output console" DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="502.4,205.6" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Warn" Message="[&quot;Company Code: .&quot; + CompanyCode + &quot;.&quot;]">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:LogMessage>
-            <ui:Comment sap:VirtualizedContainerService.HintSize="484.8,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Otsikkotason parsinta" />
-            <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Parsing the data according to the company code" DisplayName="Switch" Expression="[CompanyCode]" sap:VirtualizedContainerService.HintSize="484.8,1076" sap2010:WorkflowViewState.IdRef="Switch`1_2">
+            <ui:Comment sap:VirtualizedContainerService.HintSize="502.4,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="Otsikkotason parsinta" />
+            <Switch x:TypeArguments="x:String" sap2010:Annotation.AnnotationText="Parsing the data according to the company code" DisplayName="Switch" Expression="[CompanyCode]" sap:VirtualizedContainerService.HintSize="502.4,1596" sap2010:WorkflowViewState.IdRef="Switch`1_2">
               <Switch.Default>
-                <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="483.2,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                <Sequence DisplayName="Default" sap:VirtualizedContainerService.HintSize="500.8,89.6" sap2010:WorkflowViewState.IdRef="Sequence_7">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -213,28 +213,73 @@ PdfText.IndexOf("Company Code:") + 14,
                   <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence x:Key="1234567-8" DisplayName="Body" sap:VirtualizedContainerService.HintSize="483.2,354.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
+              <Sequence x:Key="1234567-8" DisplayName="Body" sap:VirtualizedContainerService.HintSize="500.8,874.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence sap:VirtualizedContainerService.HintSize="449.6,294.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                <Sequence sap:VirtualizedContainerService.HintSize="467.2,814.4" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="InvoiceDate" />
+                    <Variable x:TypeArguments="x:String" Name="InvoiceNumber" />
+                    <Variable x:TypeArguments="x:String" Name="AmountExclVat" />
+                  </Sequence.Variables>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object() {&quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, CompanyCode, &quot;&quot;, 0, 0, 0}]" DataTable="[dt_HeaderResult]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,211.2" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
+                  <Assign sap:VirtualizedContainerService.HintSize="433.6,115.2" sap2010:WorkflowViewState.IdRef="Assign_3">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[InvoiceDate]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">[PdfText.Substring(
+PdfText.IndexOf("Päiväys:") + 9,
+10
+)]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap:VirtualizedContainerService.HintSize="433.6,115.2" sap2010:WorkflowViewState.IdRef="Assign_4">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[InvoiceNumber]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">[PdfText.Substring(
+	PdfText.IndexOf("Laskun numero:") + 15,
+(
+	PdfText.IndexOf("Eräpäivä:") -
+	(PdfText.IndexOf("Laskun numero:") + 15)
+)
+).Trim]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <Assign sap:VirtualizedContainerService.HintSize="433.6,115.2" sap2010:WorkflowViewState.IdRef="Assign_5">
+                    <Assign.To>
+                      <OutArgument x:TypeArguments="x:String">[AmountExclVat]</OutArgument>
+                    </Assign.To>
+                    <Assign.Value>
+                      <InArgument x:TypeArguments="x:String" xml:space="preserve">[PdfText.Substring(
+	PdfText.IndexOf("Amount excl. VAT") + 17,
+(
+	PdfText.IndexOf("€", (PdfText.IndexOf("Amount excl. VAT") + 17)) -
+	 (PdfText.IndexOf("Amount excl. VAT") + 17)
+)
+).Trim]</InArgument>
+                    </Assign.Value>
+                  </Assign>
+                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn" Message="[&quot;Amount Excl VAT: .&quot; + AmountExclVat + &quot;.&quot;]" />
+                  <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object() {&#xD;&#xA;InvoiceNumber, &quot;&quot;, &quot;&quot;, InvoiceDate, &quot;&quot;, CompanyCode, &quot;&quot;, &#xD;&#xA;Convert.ToDouble(AmountExclVat.Replace(&quot;,&quot;,&quot;.&quot;).Replace(&quot; &quot;,&quot;&quot;)), &#xD;&#xA;0, 0&#xD;&#xA;}]" DataTable="[dt_HeaderResult]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="433.6,211.2" sap2010:WorkflowViewState.IdRef="AddDataRow_1" />
                 </Sequence>
               </Sequence>
-              <Sequence x:Key="1234567-9" DisplayName="Body" sap:VirtualizedContainerService.HintSize="483.2,354.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
+              <Sequence x:Key="1234567-9" DisplayName="Body" sap:VirtualizedContainerService.HintSize="500.8,354.4" sap2010:WorkflowViewState.IdRef="Sequence_6">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <Sequence sap:VirtualizedContainerService.HintSize="449.6,294.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence sap:VirtualizedContainerService.HintSize="467.2,294.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -253,8 +298,8 @@ PdfText.IndexOf("Company Code:") + 14,
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="520,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Kirjoitetaan CSV" />
-    <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" sap2010:Annotation.AnnotationText="Populating the CSV with the company code value" CsvAction="Write" DataTable="[dt_HeaderResult]" Delimitator="Semicolon" DelimitatorForViewModel="Semicolon" DisplayName="Write CSV" FilePath="InvoiceHeaderData.csv" sap:VirtualizedContainerService.HintSize="520,258.4" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_3" ShouldQuote="True">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="537.6,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="Kirjoitetaan CSV" />
+    <ui:AppendWriteCsvFile PathResource="{x:Null}" AddHeaders="True" sap2010:Annotation.AnnotationText="Populating the CSV with the company code value" CsvAction="Write" DataTable="[dt_HeaderResult]" Delimitator="Semicolon" DelimitatorForViewModel="Semicolon" DisplayName="Write CSV" FilePath="InvoiceHeaderData.csv" sap:VirtualizedContainerService.HintSize="537.6,258.4" sap2010:WorkflowViewState.IdRef="AppendWriteCsvFile_3" ShouldQuote="True">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
